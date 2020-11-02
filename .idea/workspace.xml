@@ -12,580 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81d0bce-1aea-4561-b447-5255fafb09be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/androidTest/java/com/zane/clinglibrary/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/DefaultUpnpServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/ManagedUpnpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/ManagedUpnpServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/UpnpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/UpnpServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/UpnpServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/AndroidNetworkAddressFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/AndroidRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/AndroidUpnpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/AndroidUpnpServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/AndroidUpnpServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/FixedAndroidLogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/android/NetworkUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/AllowedValueProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/AllowedValueRangeProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/LocalServiceBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/LocalServiceBindingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/AnnotationActionBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/AnnotationLocalServiceBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/AnnotationStateVariableBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpInputArgument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpOutputArgument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpServiceId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpStateVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/annotations/UpnpStateVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableActionArgument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableAllowedValueRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableIcon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableStateVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/staging/MutableUDAVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/Descriptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/DescriptorBindingException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/DeviceDescriptorBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/RecoveringUDA10DeviceDescriptorBinderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/ServiceDescriptorBinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/UDA10DeviceDescriptorBinderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/UDA10DeviceDescriptorBinderSAXImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/UDA10ServiceDescriptorBinderImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/binding/xml/UDA10ServiceDescriptorBinderSAXImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/ActionCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/ControlPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/ControlPointImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/SubscriptionCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/event/ExecuteAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/controlpoint/event/Search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/mock/MockProtocolFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/mock/MockRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/mock/MockUpnpService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/mock/MockUpnpServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/DefaultServiceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/DiscoveryOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ExpirationDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ModelUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/Namespace.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/NetworkAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ServerClientTokens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ServiceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ServiceReference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/UnsupportedDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/UserConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/Validatable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ValidationError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/ValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/VariableValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/XMLUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/AbstractActionExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/ActionArgumentValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/ActionCancelledException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/ActionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/ActionExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/ActionInvocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/MethodActionExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/QueryStateVariableExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/action/RemoteActionInvocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/gena/CancelReason.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/gena/GENASubscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/gena/LocalGENASubscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/gena/RemoteGENASubscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/Connection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/IncomingDatagramMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/OutgoingDatagramMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/StreamRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/StreamResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/UpnpHeaders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/UpnpMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/UpnpOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/UpnpRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/UpnpResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/ActionMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/ActionRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/ActionResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/IncomingActionRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/IncomingActionResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/OutgoingActionRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/control/OutgoingActionResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/IncomingNotificationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/IncomingSearchRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/IncomingSearchResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingNotificationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingNotificationRequestDeviceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingNotificationRequestRootDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingNotificationRequestServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingNotificationRequestUDN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchResponseDeviceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchResponseRootDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchResponseServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/discovery/OutgoingSearchResponseUDN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/IncomingEventRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/IncomingSubscribeRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/IncomingSubscribeResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/IncomingUnsubscribeRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingEventRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingEventResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingRenewalRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingSubscribeRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingSubscribeResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/gena/OutgoingUnsubscribeRequestMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/AVClientInfoHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/CallbackHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/ContentRangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/ContentTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/DeviceTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/DeviceUSNHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/EXTHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/EventSequenceHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/HostHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/InterfaceMacHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/InvalidHeaderException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/LocationHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/MANHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/MXHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/MaxAgeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/NTEventHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/NTSHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/PragmaHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/RangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/RootDeviceHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/STAllHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/ServerHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/ServiceTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/ServiceUSNHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/SoapActionHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/SubscriptionIdHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/TimeoutHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/UDADeviceTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/UDAServiceTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/UDNHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/USNRootDeviceHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/UpnpHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/message/header/UserAgentHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/Action.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/ActionArgument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/Device.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/DeviceDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/DeviceIdentity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/Icon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/LocalDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/LocalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/ManufacturerDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/ModelDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/QueryStateVariableAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/RemoteDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/RemoteDeviceIdentity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/RemoteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/StateVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/StateVariableAllowedValueRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/StateVariableEventDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/StateVariableTypeDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/meta/UDAVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/profile/ClientInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/profile/DeviceDetailsProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/profile/HeaderDeviceDetailsProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/profile/RemoteClientInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/DeviceDescriptorResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/IconResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/Resource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/ServiceControlResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/ServiceDescriptorResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/ServiceEventCallbackResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/resource/ServiceEventSubscriptionResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/state/FieldStateVariableAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/state/GetterStateVariableAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/state/StateVariableAccessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/state/StateVariableValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/AbstractDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/Base64Datatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/BinHexDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/BooleanDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/BytesRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/CharacterDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/CustomDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/DLNACaps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/DLNADoc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/Datatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/DateTimeDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/DeviceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/DoubleDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/FloatDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/HostPort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/IntegerDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/InvalidValueException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/NamedDeviceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/NamedServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/NotificationSubtype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/PragmaType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/ServiceId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/ServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/ShortDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/SoapActionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/StringDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UDADeviceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UDAServiceId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UDAServiceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UDN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/URIDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerFourBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerFourBytesDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerOneByte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerOneByteDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerTwoBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedIntegerTwoBytesDatatype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/UnsignedVariableInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSV.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVBoolean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVCharacter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVDouble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVFloat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVShort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVURI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVUnsignedIntegerFourBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVUnsignedIntegerOneByte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/model/types/csv/CSVUnsignedIntegerTwoBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/ProtocolCreationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/ProtocolFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/ProtocolFactoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/ReceivingAsync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/ReceivingSync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/RetrieveRemoteDescriptors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/SendingAsync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/SendingSync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/ReceivingNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/ReceivingSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/ReceivingSearchResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/SendingNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/SendingNotificationAlive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/SendingNotificationByebye.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/async/SendingSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/ReceivingAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/ReceivingEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/ReceivingRetrieval.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/ReceivingSubscribe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/ReceivingUnsubscribe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/SendingAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/SendingEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/SendingRenewal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/SendingSubscribe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/protocol/sync/SendingUnsubscribe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/DefaultRegistryListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/LocalItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistrationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/Registry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistryItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistryItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistryListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RegistryMaintainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/RemoteItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/After.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/Before.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/DeviceDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/FailedRemoteDeviceDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/LocalDeviceDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/Phase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/RegistryShutdown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/registry/event/RemoteDeviceDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/AVTransportErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/AVTransportException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/AbstractAVTransportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/GetCurrentTransportActions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/GetDeviceCapabilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/GetMediaInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/GetPositionInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/GetTransportInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Next.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Pause.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Play.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Previous.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Seek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/SetAVTransportURI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/SetPlayMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/callback/Stop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/AVTransportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/AVTransportStateMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/state/AbstractState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/state/NoMediaPresent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/state/PausedPlay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/state/Playing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/impl/state/Stopped.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/lastchange/AVTransportLastChangeParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/avtransport/lastchange/AVTransportVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/AbstractPeeringConnectionManagerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/ConnectionManagerErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/ConnectionManagerException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/ConnectionManagerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/callback/ConnectionComplete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/callback/GetCurrentConnectionInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/callback/GetProtocolInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/connectionmanager/callback/PrepareForConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/AbstractContentDirectoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ContentDirectoryErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ContentDirectoryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/DIDLParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/callback/Browse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/callback/GetSystemUpdateID.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/callback/Search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ui/ContentBrowseActionCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ui/ContentBrowseActionCallbackCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ui/ContentTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ui/ContentTreeCellRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/contentdirectory/ui/ContentTreeExpandListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/PortMappingListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/callback/GetExternalIP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/callback/GetStatusInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/callback/PortMappingAdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/callback/PortMappingDelete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/igd/callback/PortMappingEntryGet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueEnumArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueShort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueURI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueUnsignedIntegerFourBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/EventedValueUnsignedIntegerTwoBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/InstanceID.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/LastChange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/LastChangeAwareServiceManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/LastChangeDelegator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/lastchange/LastChangeParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/AddMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/RemoveMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/DateTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/ElementAppender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/MessageIncomingCall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/MessageSMS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/MessageScheduleReminder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/model/NumberName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/parser/MessageDOM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/parser/MessageDOMParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/messagebox/parser/MessageElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/AVTransport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/BrowseFlag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/BrowseResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/Channel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/Connection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/ConnectionInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/DIDLAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/DIDLContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/DIDLObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/DescMeta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/DeviceCapabilities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/MediaInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/PersonWithRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/PlayMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/PortMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/PositionInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/PresetName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/Protocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/ProtocolInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/ProtocolInfos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/RecordMediumWriteStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/RecordQualityMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/Res.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/SearchResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/SeekMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/SortCriterion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/StorageMedium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/TransportAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/TransportInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/TransportSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/TransportState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/TransportStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/VolumeDBRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/WriteStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/Album.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/GenreContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/MovieGenre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/MusicAlbum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/MusicArtist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/MusicGenre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/PersonContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/PhotoAlbum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/PlaylistContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/StorageFolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/StorageSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/container/StorageVolume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAConversionIndicator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAConversionIndicatorAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAFlags.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAFlagsAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAOperationsAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAPlaySpeedAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAProfileAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAProfiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/DLNAProtocolInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/InvalidDLNAProtocolAttributeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/DLNAHeaders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/AvailableRangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/AvailableSeekRangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/BufferBytesHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/BufferInfoHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/ContentFeaturesHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/DLNAHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/EventTypeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/FriendlyNameHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/GetAvailableSeekRangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/GetContentFeaturesHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/MaxPrateHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/PeerManagerHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/PlaySpeedHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/PragmaHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/RealTimeInfoHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/SCIDHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/ScmsFlagHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/SupportedHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/TimeSeekRangeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/TransferModeHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/message/header/WCTHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/AvailableSeekRangeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/BufferInfoType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/CodedDataBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/NormalPlayTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/NormalPlayTimeRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/ScmsFlagType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/dlna/types/TimeSeekRangeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/AudioBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/AudioBroadcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/AudioItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/ImageItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/MusicTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/MusicVideoClip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/Photo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/PlaylistItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/TextItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/VideoBroadcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/model/item/VideoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/AbstractAudioRenderingControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/RenderingControlErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/RenderingControlException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/callback/GetMute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/callback/GetVolume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/callback/SetMute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/callback/SetVolume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/ChannelLoudness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/ChannelMute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/ChannelVolume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/ChannelVolumeDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/EventedValueChannelLoudness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/EventedValueChannelMute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/EventedValueChannelVolume.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/EventedValueChannelVolumeDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/RenderingControlLastChangeParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/renderingcontrol/lastchange/RenderingControlVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/AWTExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/AbstractMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/CenterWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/CoreLogCategories.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/NewPlatformApple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/PlatformApple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/ShutdownHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/TextExpand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/TextExpandDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/TextExpandEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/View.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/log/LogView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/log/impl/LogPresenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/shared/log/impl/LogViewImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/support/xmicrosoft/AbstractMediaReceiverRegistrarService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/DisableRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/EnableRouter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/Router.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/RouterException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/RouterImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/AsyncServletStreamServerConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/AsyncServletStreamServerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/AsyncServletUpnpStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/DatagramIOConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/DatagramIOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/DatagramProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/FixedSunURLStreamHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/GENAEventProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/HttpExchangeUpnpStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/MulticastReceiverConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/MulticastReceiverImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/NetworkAddressFactoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/PullGENAEventProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/PullSOAPActionProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/RecoveringGENAEventProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/RecoveringSOAPActionProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/SOAPActionProcessorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/StreamClientConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/StreamClientImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/StreamServerConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/StreamServerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/jetty/JettyServletContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/jetty/StreamClientConfigurationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/impl/jetty/StreamClientImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/AbstractStreamClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/AbstractStreamClientConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/DatagramIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/DatagramIOConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/DatagramProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/GENAEventProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/InitializationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/MulticastReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/MulticastReceiverConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/NetworkAddressFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/NoNetworkException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/SOAPActionProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/ServletContainerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/StreamClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/StreamClientConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/StreamServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/StreamServerConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/java/org/fourthline/cling/transport/spi/UpnpStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinglibrary/src/test/java/com/zane/clinglibrary/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -608,36 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="200" column="90" selection-start-line="200" selection-start-column="77" selection-end-line="200" selection-end-column="90" />
+            <state relative-caret-position="439">
+              <caret line="276" column="39" lean-forward="true" selection-start-line="276" selection-start-column="39" selection-end-line="276" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SystemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java">
+      <file leaf-file-name="AVTransportSubscriptionCallback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/callback/AVTransportSubscriptionCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-              <folding>
-                <element signature="e#2000#2001#0" expanded="true" />
-                <element signature="e#2049#2050#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -2947,9 +2358,9 @@
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3324,13 +2735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="200" column="90" selection-start-line="200" selection-start-column="77" selection-end-line="200" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/sdk/sources/android-28/android/content/Context.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -3345,17 +2749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-          <folding>
-            <element signature="e#2000#2001#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/Intents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -3365,12 +2758,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/callback/AVTransportSubscriptionCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/SystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="83" column="58" lean-forward="true" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="78" />
+          <folding>
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fourthline.cling/cling-core/2.1.1/6c83ad82b71e075df4af5ee292bc00daa710196c/cling-core-2.1.1-sources.jar!/org/fourthline/cling/android/AndroidUpnpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/service/ClingUpnpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zane/androidupnpdemo/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="276" column="39" lean-forward="true" selection-start-line="276" selection-start-column="39" selection-end-line="276" selection-end-column="39" />
+        </state>
       </provider>
     </entry>
   </component>

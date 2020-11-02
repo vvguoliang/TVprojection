@@ -266,7 +266,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             public void onDeviceAdded(final IDevice device) {
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        Log.e("====添加设备======", "" + device);
                         mDevicesAdapter.add((ClingDevice) device);
                     }
                 });
@@ -276,7 +275,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             public void onDeviceRemoved(final IDevice device) {
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        Log.e("====删除设备======", "" + device);
                         mDevicesAdapter.remove((ClingDevice) device);
                     }
                 });
