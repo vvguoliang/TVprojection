@@ -44,6 +44,7 @@ public class SystemService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        Log.e("","");
     }
 
     @Override

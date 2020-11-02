@@ -160,9 +160,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     private static final int REQUEST_CODE_WRITE_SETTINGS = 2;
 
     private void requestWriteSettings() {
-//             Intent intent = new Intent(Settings.ACTION_MANAGE_WRITE_SETTINGS);
-//             intent.setData(Uri.parse("package:" + getPackageName()));
-//             startActivityForResult(intent, REQUEST_CODE_WRITE_SETTINGS );
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (!Settings.System.canWrite(MainActivity.this)) {
                 Intent intent = new Intent(android.provider.Settings.ACTION_MANAGE_WRITE_SETTINGS);
@@ -170,13 +167,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivityForResult(intent, requestCodeWriteSettings);
             }
-//            else {
-//               // 有了权限，具体的动作
-//                Settings.System.putInt(getContentResolver(),
-//                        Settings.System.SCREEN_BRIGHTNESS, progress);
-//                data2 = intToString(progress, 255);
-//                tvSunlightValue.setText(data2 + "%");
-//            }
         }
     }
 
