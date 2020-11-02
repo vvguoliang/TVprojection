@@ -1,3 +1,9 @@
+# TVprojection
+  * Project based on someone else's demo, address: https://github.com/zaneCC/AndroidUPnPDemo This is the most basic operation. This project will not move. I will set up branches to do the operation.  
+  * 在基于其他人的demo之上做的项目，地址：https://github.com/zaneCC/AndroidUPnPDemo ，这是最基础的操作，这个项目不会动，我会建立分支去做操作.
+
+
+
 ## 项目解决的问题分支
    * 1.解决会议时候，用HDMI或者AGV来投放大屏,线多链接比较麻烦！尴尬。
    * 2.解决家里的智能电视遥控器不好用，还要用电池来维护，如果丢了，还要出去买！尴尬。
