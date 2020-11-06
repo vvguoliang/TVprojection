@@ -28,7 +28,7 @@
 
 <!--        android:screenOrientation="portrait"  华为bug-->
         <activity
-            android:name=".uiInfraredcontroller.ControlPanelActivity"
+            android:name=".uiinfraredcontroller.ControlPanelActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

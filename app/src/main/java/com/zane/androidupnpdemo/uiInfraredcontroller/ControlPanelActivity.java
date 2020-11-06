@@ -1,4 +1,4 @@
-package com.zane.androidupnpdemo.uiInfraredcontroller;
+package com.zane.androidupnpdemo.uiinfraredcontroller;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -118,19 +118,42 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void offonClick(View v) {
-        if (!IRBack) {
-            return;
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
         }
-        // 一种交替的载波序列模式，通过毫秒测量
-        int[] pattern = {1901, 4453, 625, 1614, 625, 1588, 625, 1614, 625,
-                442, 625, 442, 625, 468, 625, 442, 625, 494, 572, 1614,
-                625, 1588, 625, 1614, 625, 494, 572, 442, 651, 442, 625,
-                442, 625, 442, 625, 1614, 625, 1588, 651, 1588, 625, 442,
-                625, 494, 598, 442, 625, 442, 625, 520, 572, 442, 625, 442,
-                625, 442, 651, 1588, 625, 1614, 625, 1588, 625, 1614, 625,
-                1588, 625, 48958};
-        // 在38.4KHz条件下进行模式转换
-        sendMsg(38000, pattern);
+        // // 一种交替的载波序列模式，通过毫秒测量
+        // int[] pattern = {1901, 4453, 625, 1614, 625, 1588, 625, 1614, 625,
+        //         442, 625, 442, 625, 468, 625, 442, 625, 494, 572, 1614,
+        //         625, 1588, 625, 1614, 625, 494, 572, 442, 651, 442, 625,
+        //         442, 625, 442, 625, 1614, 625, 1588, 651, 1588, 625, 442,
+        //         625, 494, 598, 442, 625, 442, 625, 520, 572, 442, 625, 442,
+        //         625, 442, 651, 1588, 625, 1614, 625, 1588, 625, 1614, 625,
+        //         1588, 625, 48958};
+        // // 在38.4KHz条件下进行模式转换
+        // sendMsg(38000, pattern);
+        /*
+                   一种交替的载波序列模式，用于发射红外, pattern要和所用的红外码对应
+                   下标偶数：红外开
+                   下标奇数：红外关
+                   单位：微秒
+                   如：打开1000微秒再关闭500微秒再打开1000微秒关闭500微秒。
+                   注：1.开对应的是示波器上的低电平，关对应的高电平
+                       2.整个数组的时间之和不能超过两秒,且不能太短，否则无法读取用户码数据码
+                 */
+                int[] pattern = {
+                    1000,500,1000,500,
+                    1000,500,1000,500,
+                    1000,500,1000,500,
+                    1000,500,1000,500,
+                    1000,500,1000,500 };
+            /*
+                transmit(int carrierFrequency, int[] pattern)
+                参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+                通过38400赫兹的载波频率发射红外
+             */
+            sendMsg(38400, pattern);
     }
 
     /**
@@ -139,6 +162,23 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void ononClick(View v) {
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
+        }
+        int[] pattern = {
+            1000,500,1500,1000,
+            1000,500,1500,1000,
+            1000,500,1500,1000,
+            1000,500,1500,1000,
+            1000,500,1500,1000 };
+    /*
+        transmit(int carrierFrequency, int[] pattern)
+        参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+        通过38400赫兹的载波频率发射红外
+     */
+    sendMsg(38400, pattern);
 
     }
 
@@ -148,7 +188,23 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void onClicktop(View v) {
-
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
+        }
+        int[] pattern = {
+            1500,2000,1500,2000,
+            1500,2000,1500,2000,
+            1500,2000,1500,2000,
+            1500,2000,1500,2000,
+            1500,2000,1500,2000 };
+    /*
+        transmit(int carrierFrequency, int[] pattern)
+        参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+        通过38400赫兹的载波频率发射红外
+     */
+    sendMsg(38400, pattern);
     }
 
     /**
@@ -157,7 +213,23 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void onClickleft(View v) {
-
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
+        }
+        int[] pattern = {
+            2000,2500,2000,2500,
+            2000,2500,2000,2500,
+            2000,2500,2000,2500,
+            2000,2500,2000,2500,
+            2000,2500,2000,2500 };
+    /*
+        transmit(int carrierFrequency, int[] pattern)
+        参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+        通过38400赫兹的载波频率发射红外
+     */
+    sendMsg(38400, pattern);
     }
 
     /**
@@ -166,7 +238,23 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void onClickright(View v) {
-
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
+        }
+        int[] pattern = {
+            3000,2500,3000,2500,
+            3000,2500,3000,2500,
+            3000,2500,3000,2500,
+            3000,2500,3000,2500,
+            3000,2500,3000,2500};
+    /*
+        transmit(int carrierFrequency, int[] pattern)
+        参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+        通过38400赫兹的载波频率发射红外
+     */
+    sendMsg(38400, pattern);
     }
 
     /**
@@ -175,7 +263,23 @@ public class ControlPanelActivity extends Activity {
      * @param v
      */
     public void onClickboomt(View v) {
-
+        if (!IRBack){
+            Toast.makeText(MyInfrared.this,
+                    "无红外功能",Toast.LENGTH_SHORT).show();
+                    return;
+        }
+        int[] pattern = {
+            3500,3000,3500,3000,
+            3500,3000,3500,3000,
+            3500,3000,3500,3000,
+            3500,3000,3500,3000,
+            3500,3000,3500,3000 };
+    /*
+        transmit(int carrierFrequency, int[] pattern)
+        参数1：代表红外传输的频率，一般是38KHz，参数2：pattern就是指以微妙为单位的红外开和关的交替时间。
+        通过38400赫兹的载波频率发射红外
+     */
+    sendMsg(38400, pattern);
     }
 
 }

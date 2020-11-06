@@ -1,4 +1,4 @@
-package com.zane.androidupnpdemo.uiInfraredcontroller;
+package com.zane.androidupnpdemo.uiinfraredcontroller;
 
 import java.util.ArrayList;
 import java.util.List;
