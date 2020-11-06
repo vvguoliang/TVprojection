@@ -1,0 +1,89 @@
+extends ../../layouts/layout
+
+block append widgets
+  script(src='panels/LED Color/IrPanel.js')
+
+block body
+  div(data-role="page", data-theme="b")
+    div(data-role="content", data-widget='IrPanel')
+      .ui-grid-c        
+        .ui-block-a
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFA05F")
+            span.fa.fa-certificate
+        .ui-block-b      
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF20DF")            
+            span.fa.fa-asterisk
+
+        .ui-block-c
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFE01F")
+            span.fa.fa-power-off(style="color: green;")
+        .ui-block-d      
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF609F")            
+            span.fa.fa-power-off(style="color: red;")
+      
+      .ui-grid-c
+        .ui-block-a  
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFF00F")
+            span Flash
+        .ui-block-b  
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFE817")
+            span Stroke  
+        .ui-block-c  
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFD827")
+            span Fade
+        .ui-block-d  
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFC837")
+            span Smooth  
+        
+      a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFD02F")
+          span.fa.fa-lightbulb-o(style="color: #FFFFFF;")
+        
+      .ui-grid-d
+        .ui-block-a
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF906F")
+            span.fa.fa-lightbulb-o(style="color:#FF0000")
+        .ui-block-b
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFB04F")
+            span.fa.fa-lightbulb-o(style="color:#FF6E00")
+        .ui-block-c
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF30CF")
+            span.fa.fa-lightbulb-o(style="color:#D56700")
+        .ui-block-d
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF708F")
+            span.fa.fa-lightbulb-o(style="color:#E69200")
+        .ui-block-e
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFFA857")
+            span.fa.fa-lightbulb-o(style="color:#DDDD00")
+
+        .ui-block-a
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF10EF")
+            span.fa.fa-lightbulb-o(style="color:#00FF00")
+        .ui-block-b
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF28D7")
+            span.fa.fa-lightbulb-o(style="color:#00C2F2")
+        .ui-block-c
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF6897")
+            span.fa.fa-lightbulb-o(style="color:#00B7B7")
+        .ui-block-d
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF9867")
+            span.fa.fa-lightbulb-o(style="color:#008096")
+        .ui-block-e
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF18E7")
+            span.fa.fa-lightbulb-o(style="color:#00628A")
+
+        .ui-block-a
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF50AF")
+            span.fa.fa-lightbulb-o(style="color:#0000FF")
+        .ui-block-b
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF58A7")
+            span.fa.fa-lightbulb-o(style="color:#5A00A1")
+        .ui-block-c
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF8877")
+            span.fa.fa-lightbulb-o(style="color:#600060")
+        .ui-block-d
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF08F7")
+            span.fa.fa-lightbulb-o(style="color:#840075")
+        .ui-block-e
+          a.ui-shadow.ui-btn.ui-corner-all(data-ir-type="NEC", data-ir-length="32", data-ir-code="0xFF48B7")
+            span.fa.fa-lightbulb-o(style="color:#9E007E")
+          

@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     private ServiceConnection mUpnpServiceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName className, IBinder service) {
-            Log.e(TAG, "mUpnpServiceConnection onServiceConnected");
+            Log.e(TAG, "mUpnpServiceConnection onServiceConnected" + "=======" + className);
 
             ClingUpnpService.LocalBinder binder = (ClingUpnpService.LocalBinder) service;
             ClingUpnpService beyondUpnpService = binder.getService();
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
         @Override
         public void onServiceDisconnected(ComponentName className) {
-            Log.e(TAG, "mUpnpServiceConnection onServiceDisconnected");
+            Log.e(TAG, "mUpnpServiceConnection onServiceDisconnected" + "=====" + className);
 
             ClingManager.getInstance().setUpnpService(null);
         }
@@ -423,6 +423,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 public void fail(IResponse response) {
                     Log.e(TAG, "play fail");
                     mHandler.sendEmptyMessage(ERROR_ACTION);
+
                 }
             });
         } else {
