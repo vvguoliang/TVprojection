@@ -1,5 +1,7 @@
 package com.zane.androidupnpdemo.ui;
 
+import android.Manifest;
+import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -13,6 +15,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -40,9 +43,11 @@ import com.zane.androidupnpdemo.entity.IDevice;
 import com.zane.androidupnpdemo.entity.IResponse;
 import com.zane.androidupnpdemo.listener.BrowseRegistryListener;
 import com.zane.androidupnpdemo.listener.DeviceListChangedListener;
+import com.zane.androidupnpdemo.localsearch.FileUtils;
 import com.zane.androidupnpdemo.service.ClingUpnpService;
 import com.zane.androidupnpdemo.service.manager.ClingManager;
 import com.zane.androidupnpdemo.service.manager.DeviceManager;
+import com.zane.androidupnpdemo.util.PermissionsUtils;
 import com.zane.androidupnpdemo.util.Utils;
 
 import org.fourthline.cling.model.meta.Device;
@@ -77,6 +82,11 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
      */
     public static final int ERROR_ACTION = 0xa5;
 
+    /**
+     * 图片，视频，音频返回地址
+     */
+    private static final int REQUEST_CODE = 6384; // onActivityResult request
+
     private Context mContext;
     private Handler mHandler = new InnerHandler();
 
@@ -86,9 +96,12 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     private SeekBar mSeekProgress;
     private SeekBar mSeekVolume;
     private Switch mSwitchMute;
+    private TextView mFile_example;
 
     private BroadcastReceiver mTransportStateBroadcastReceiver;
     private ArrayAdapter<ClingDevice> mDevicesAdapter;
+
+    private String mIP = "";
     /**
      * 投屏控制器
      */
@@ -150,6 +163,8 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContext = this;
+        String address = Utils.getIPAddress(true);
+        mIP = "http://" + address + ":8888";
         requestWriteSettings();
         initView();
         initListeners();
@@ -159,6 +174,9 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     private static final int REQUEST_CODE_WRITE_SETTINGS = 2;
 
+    /**
+     * 权限管理
+     */
     private void requestWriteSettings() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (!Settings.System.canWrite(MainActivity.this)) {
@@ -166,6 +184,12 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 intent.setData(Uri.parse("package:" + getPackageName()));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivityForResult(intent, requestCodeWriteSettings);
+            } else {
+                //多媒体权限和一个数据读写权限
+                String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
+                // PermissionsUtils.showSystemSetting = false;//是否支持显示系统设置权限设置窗口跳转
+                //这里的this不是上下文，是Activity对象！
+                PermissionsUtils.getInstance().chekPermissions(this, permissions, permissionsResult);
             }
         }
     }
@@ -176,9 +200,47 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQUEST_CODE_WRITE_SETTINGS) {
             if (Settings.System.canWrite(MainActivity.this)) {
-                Log.i("", "onActivityResult write settings granted");
+                //多媒体权限和一个数据读写权限
+                String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
+                // PermissionsUtils.showSystemSetting = false;//是否支持显示系统设置权限设置窗口跳转
+                //这里的this不是上下文，是Activity对象！
+                PermissionsUtils.getInstance().chekPermissions(this, permissions, permissionsResult);
+            }
+        } else if (requestCode == REQUEST_CODE) {// If the file selection was successful
+            if (resultCode == RESULT_OK) {
+                if (data != null) {
+                    // Get the URI of the selected file
+                    final Uri uri = data.getData();
+                    Log.i(TAG, "Uri = " + uri.toString());
+                    try {
+                        // Get the file path from the URI
+                        final String path = FileUtils.getPath(this, uri);
+                        mFile_example.setText(mIP + path);
+                        Toast.makeText(MainActivity.this, "File Selected: " + path, Toast.LENGTH_LONG).show();
+                    } catch (Exception e) {
+                        Log.e("MainActivity", "File select error", e);
+                    }
+                }
             }
         }
+    }
+
+    //创建监听权限的接口对象
+    PermissionsUtils.IPermissionsResult permissionsResult = new PermissionsUtils.IPermissionsResult() {
+        @Override
+        public void passPermissons() {
+            Toast.makeText(MainActivity.this, "权限通过，可以做其他事情!", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        public void forbitPermissons() {
+            Toast.makeText(MainActivity.this, "权限不通过!", Toast.LENGTH_SHORT).show();
+        }
+    };
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     private void registerReceivers() {
@@ -224,6 +286,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         mSeekProgress = findViewById(R.id.seekbar_progress);
         mSeekVolume = findViewById(R.id.seekbar_volume);
         mSwitchMute = findViewById(R.id.sw_mute);
+        mFile_example = findViewById(R.id.file_example);
 
         mDevicesAdapter = new DevicesAdapter(mContext);
         mDeviceList.setAdapter(mDevicesAdapter);
@@ -237,6 +300,13 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     }
 
     private void initListeners() {
+        mFile_example.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showChooser();
+            }
+        });
+
         mRefreshLayout.setOnRefreshListener(this);
 
         mDeviceList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -257,6 +327,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
                 String selectedDeviceName = String.format(getString(R.string.selectedText), device.getDetails().getFriendlyName());
                 mTVSelected.setText(selectedDeviceName);
+
             }
         });
 
@@ -407,7 +478,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
          */
 
         if (currentState == DLANPlayState.STOP) {
-            mClingPlayControl.playNew(Config.TEST_URL, new ControlCallback() {
+            mClingPlayControl.playNew(mFile_example.getText().toString(), new ControlCallback() {
 
                 @Override
                 public void success(IResponse response) {
@@ -548,6 +619,23 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             } else if (Intents.ACTION_TRANSITIONING.equals(action)) {
                 mHandler.sendEmptyMessage(TRANSITIONING_ACTION);
             }
+        }
+    }
+
+
+    /**
+     * 调用文件方法
+     */
+    private void showChooser() {
+        // Use the GET_CONTENT intent from the utility class
+        Intent target = FileUtils.createGetContentIntent();
+        // Create the chooser Intent
+        Intent intent = Intent.createChooser(
+                target, getString(R.string.chooser_title));
+        try {
+            startActivityForResult(intent, REQUEST_CODE);
+        } catch (ActivityNotFoundException e) {
+            // The reason for the existence of aFileChooser
         }
     }
 }
