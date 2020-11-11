@@ -1,6 +1,7 @@
 package com.zane.androidupnpdemo.ui;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -184,16 +185,16 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                 intent.setData(Uri.parse("package:" + getPackageName()));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivityForResult(intent, requestCodeWriteSettings);
-            } else {
-                //多媒体权限和一个数据读写权限
-                String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
-                // PermissionsUtils.showSystemSetting = false;//是否支持显示系统设置权限设置窗口跳转
-                //这里的this不是上下文，是Activity对象！
-                PermissionsUtils.getInstance().chekPermissions(this, permissions, permissionsResult);
             }
+            //多媒体权限和一个数据读写权限
+            String[] permissions = new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
+            // PermissionsUtils.showSystemSetting = false;//是否支持显示系统设置权限设置窗口跳转
+            //这里的this不是上下文，是Activity对象！
+            PermissionsUtils.getInstance().chekPermissions(this, permissions, permissionsResult);
         }
     }
 
+    @SuppressLint("SetTextI18n")
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -215,7 +216,13 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                     try {
                         // Get the file path from the URI
                         final String path = FileUtils.getPath(this, uri);
-                        mFile_example.setText(mIP + path);
+                        if (path != null) {
+                            mFile_example.setText(mIP + path);
+                        } else {
+                            mFile_example.setText("权限未打开");
+                            requestWriteSettings();
+                        }
+
                         Toast.makeText(MainActivity.this, "File Selected: " + path, Toast.LENGTH_LONG).show();
                     } catch (Exception e) {
                         Log.e("MainActivity", "File select error", e);
